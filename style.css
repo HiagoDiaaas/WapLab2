@@ -179,5 +179,6 @@ textarea {
 
 .validation-links img {
     max-width: 150px;
-    height: auto;
+    width: 100%;     
+    height: auto;    
 }
