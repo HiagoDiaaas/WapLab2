@@ -9,8 +9,19 @@
 <body>
 
 <div class="container">
-    <h1>Workshop Registration</h1>
-    <p>Register now while seats are available!</p>
+    <div class="header">
+        <h1>Workshop Registration</h1>
+        <div class="dropdown">
+            <button class="dropbtn">More Actions ▼</button>
+            <div class="dropdown-content">
+                <a href="#">Action 1</a>
+                <a href="#">Action 2</a>
+                <a href="#">Action 3</a>
+            </div>
+        </div>
+    </div>
+
+    <p class="underline">Register now while seats are available!</p>
 
     <form>
         <div class="form-row">
@@ -79,6 +90,7 @@
             </div>
         </div>
 
+        <p class="underline">Lunch</p>
         <div class="form-row">
             <div class="form-group meal-preference">
                 <label for="meal">Meal Preference</label>
@@ -87,6 +99,10 @@
                     <option value="Non-Vegetarian">Non-Vegetarian</option>
                 </select>
             </div>
+        </div>
+
+        <p class="underline">Payment Details</p>
+        <div class="form-row">
             <div class="form-group">
                 <label>Payment Mode</label>
                 <div class="checkbox-group">
