@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -75,6 +75,20 @@ h1 {
     display: block;
 }
 
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    flex: 0 0 60%;
+}
+
+.right-section {
+    flex: 0 0 35%;
+    margin-top: 30px;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -107,10 +121,6 @@ textarea {
 
 .form-row .form-group {
     flex: 0 0 48%;
-}
-
-.form-row.full-width {
-    flex: 0 0 100%;
 }
 
 .checkbox-group {
